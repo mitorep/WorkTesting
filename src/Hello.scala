@@ -1,7 +1,7 @@
 object Hello extends App{
   println("Hello, World!")
 
-  for(i <- 1 to 18) (println(i))
+  for(i <- 1 to 3git) (println(i))
 
   def add(a: Int, b:Int) = a+b
 
