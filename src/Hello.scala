@@ -39,4 +39,9 @@ object Hello extends App{
 
   val test2 = (add1 andThen add2)(20)
   println(test2)
+
+  val aList = List(1,2,3,4,5)
+  for(i <- aList){
+    println("List items " + i)
+  }
 }
