@@ -86,9 +86,11 @@ object Functions {
     println("Min :" + favNums.min)
     println("Max :" + favNums.max)
 
+   // val sortedNums = favNums.sortWith(_>_)
     val sortedNums = favNums.sortWith(_>_)
-    //val sortedNums = favNums.sortWith(_>_)
-    sortedNums.foreach(println)
+   //sortedNums.foreach(println)
+
+    println(sortedNums.deep.mkString(", "))
 
   }
 }
