@@ -21,7 +21,7 @@ object KafkaStreamsApp extends App {
   val sysout = Printed
     .toSysOut[String, String]
     .withLabel("stdout")
- // uppers.print(sysout)
+  uppers.print(sysout)
 
   // Step 2. Build Topology
   val topology = builder.build
